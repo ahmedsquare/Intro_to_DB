@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS Books (
 
 CREATE TABLE IF NOT EXISTS Customers (
     customer_id   INT PRIMARY KEY,
-    customer_name  VARCHAR(215) NOT NULL,
+    customer_name  VARCHAR(215),
     email VARCHAR(215) NOT NULL,
     address TEXT NOT NULL
 );
